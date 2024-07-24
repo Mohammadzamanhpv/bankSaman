@@ -785,3 +785,159 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     color: #444;
 
 }
+
+#content>#bigbox>.products {
+    /* border: 1px solid black; */
+    width: 1210px;
+    height: 450px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+#content>#bigbox>.products>.tabs {
+    /* border: 1px solid red; */
+    width: 920px;
+    height: 100px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.5rem;
+    /* border-bottom: 2px solid #10a2d8; */
+}
+
+#content>#bigbox>.products>.tabs>.tab1 {
+    /* border: 1px solid red; */
+    width: 180px;
+    height: 55px;
+    margin: auto;
+    float: right;
+    padding: 15px;
+    border-bottom: 2px solid #10a2d8;
+}
+
+#content>#bigbox>.products>.tabs>.tab2 {
+    /* border: 1px solid red; */
+    float: right;
+    width: 180px;
+    height: 55px;
+    margin: auto;
+    padding: 15px;
+}
+
+#content>#bigbox>.products>.tabs>.tab3 {
+    /* border: 1px solid red; */
+    float: right;
+    width: 180px;
+    height: 55px;
+    margin: auto;
+    padding: 15px;
+}
+
+#content>#bigbox>.products>.tabs>.tab4 {
+    /* border: 1px solid red; */
+    float: right;
+    width: 180px;
+    height: 55px;
+    margin: auto;
+    padding: 15px;
+}
+
+#content>#bigbox>.products>.boxtabs {
+    /* border: 1px solid black; */
+    width: 400%;
+    height: 350px;
+    overflow: hidden;
+
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 100%;
+    margin-top: auto;
+}
+
+#content>#bigbox>.products>.boxtabs>.tab1 {
+    float: right;
+    /* display: none; */
+
+}
+
+#content>#bigbox>.products>.boxtabs>.tab2 {
+    float: right;
+    display: block;
+}
+
+#content>#bigbox>.products>.boxtabs>.tab3 {
+    float: right;
+    display: none;
+}
+
+#content>#bigbox>.products>.boxtabs>.tab4 {
+    display: none;
+    float: right;
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes>.img {
+    /* border: 1px dotted black; */
+    width: 330px;
+    height: 330px;
+    float: left;
+    position: relative;
+    /* box-sizing: border-box;
+    box-shadow: 10px 10px rgb(144, 197, 225) inset; */
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes>.img>div {
+    /* border: 1px dotted black; */
+    width: 315px;
+    height: 315px;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    z-index: -1;
+    background-color: rgb(228, 238, 242);
+}
+
+
+#content>#bigbox>.products>.boxtabs>.boxes>.img>div>img {
+    position: relative;
+    z-index: 1;
+    margin: 15px 0 0 15px;
+    float: left;
+    border-radius: 5px;
+
+
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes>.txt {
+    /* border: 1px dotted black; */
+    width: 600px;
+    height: 120px;
+    margin: 90px 10px;
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes>.txt>span {
+    color: #212529;
+    width: 500px;
+    height: 40px;
+    /* border: 1px solid red; */
+    text-align: justify;
+    float: right;
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes>.txt>span:nth-child(3) {
+    color: #10a2d8;
+    margin-top: 20px;
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes>.txt>span:nth-child(1) {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#content>#bigbox>.products>.boxtabs>.boxes>.txt>span:nth-child(2) {
+    width: 700px;
+}
