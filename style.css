@@ -142,7 +142,7 @@ header>#headerBottom>.bottom>.logo>.logopic {
     height: 56px;
     margin: 5px 0 0;
 
-    background: url(/img/logo.png) no-repeat;
+    background: url(./img/logo.png) no-repeat;
     background-size: 172px 56px;
     background-position: center;
 }
@@ -318,7 +318,7 @@ footer>#footertop>.topfoot>.contact>.img {
     /* border: 1px solid black; */
     width: 48px;
     height: 48px;
-    background: url(/img/news.png);
+    background: url(./img/news.png);
     background-size: 48px;
 
 }
@@ -327,7 +327,7 @@ footer>#footertop>.topfoot>.contact>.img2 {
     /* border: 1px solid black; */
     width: 48px;
     height: 48px;
-    background: url(/img/contact.png);
+    background: url(./img/contact.png);
     background-size: 48px;
 
 }
@@ -336,7 +336,7 @@ footer>#footertop>.topfoot>.contact>.img3 {
     /* border: 1px solid black; */
     width: 48px;
     height: 48px;
-    background: url(/img/submit.png);
+    background: url(./img/submit.png);
     background-size: 48px;
 
 
@@ -346,7 +346,7 @@ footer>#footertop>.topfoot>.contact>.img4 {
     /* border: 1px solid black; */
     width: 48px;
     height: 48px;
-    background: url(/img/loc.png);
+    background: url(./img/loc.png);
     background-size: 48px;
 
 }
@@ -405,7 +405,7 @@ footer>#footerend>.endfoot>.copy2 {
     width: 150px;
     height: 40px;
     float: left;
-    background: url(/img/foru.png) no-repeat;
+    background: url(./img/foru.png) no-repeat;
     margin-top: 5px;
     background-size: 120px 35px;
 }
@@ -488,7 +488,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app1 {
     width: 120px;
     height: 38px;
     float: right;
-    background: url(/img/android.png) no-repeat;
+    background: url(./img/android.png) no-repeat;
     background-size: 120px 37px;
 
 }
@@ -498,7 +498,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     width: 120px;
     height: 38px;
     float: right;
-    background: url(/img/android.png) no-repeat;
+    background: url(./img/android.png) no-repeat;
     background-size: 120px 37px;
     margin-right: 10px;
 }
@@ -623,7 +623,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     /* border: 1px dotted black; */
     width: 555px;
     height: 320px;
-    background: url(/img/samanium.png)no-repeat;
+    background: url(./img/samanium.png)no-repeat;
     background-size: 555px 320px;
     border-radius: 15px 15px 0 0;
 }
@@ -665,7 +665,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     float: left;
     margin: 10px 0 0 5px;
     border-radius: 15px;
-    background: url(/img/wincard.png)no-repeat;
+    background: url(./img/wincard.png)no-repeat;
     background-size: 555px 320px;
 }
 
@@ -674,7 +674,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     width: 555px;
     height: 320px;
     border-radius: 15px 15px 0 0;
-    background: url(/img/wincard.png)no-repeat;
+    background: url(./img/wincard.png)no-repeat;
     background-size: 555px 320px;
 }
 
@@ -751,7 +751,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     width: 62px;
     float: right;
     height: 62px;
-    background: url(/img/img5.svg);
+    background: url(./img/img5.svg);
 }
 
 #content>#bigbox>.services>.box2>.duty>.titled>.img2 {
@@ -759,7 +759,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     float: right;
     width: 62px;
     height: 62px;
-    background: url(/img/img3.svg);
+    background: url(./img/img3.svg);
 }
 
 #content>#bigbox>.services>.box2>.duty>.titled>.img3 {
@@ -767,7 +767,7 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     float: right;
     width: 62px;
     height: 62px;
-    background: url(/img/img4.svg);
+    background: url(./img/img4.svg);
 }
 
 #content>#bigbox>.services>.box2>.duty>.listed {
@@ -862,7 +862,6 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
 #content>#bigbox>.products>.boxtabs>.tab1 {
     float: right;
     /* display: none; */
-
 }
 
 #content>#bigbox>.products>.boxtabs>.tab2 {
@@ -908,8 +907,6 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
     margin: 15px 0 0 15px;
     float: left;
     border-radius: 5px;
-
-
 }
 
 #content>#bigbox>.products>.boxtabs>.boxes>.txt {
@@ -941,3 +938,70 @@ footer>#footermid>.midfoot>.midbox>.box4>.app2 {
 #content>#bigbox>.products>.boxtabs>.boxes>.txt>span:nth-child(2) {
     width: 700px;
 }
+
+/* sliders */
+#sliders {
+    /* border: 1px solid black; */
+    width: 1440px;
+    height: 370px;
+    /* overflow: hidden;
+    position: relative; */
+}
+
+#sliders>.slidebox {
+    /* border: 1px solid red; */
+    width: 1210px;
+    height: 380px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#sliders>.slidebox>.slideshow {
+    transition: 0.5s;
+    position: relative;
+    width: 400%;
+    height: 340px;
+    right: 0;
+}
+
+#sliders>.slidebox>.slideshow>.items {
+    float: right;
+    overflow: hidden;
+    width: 25%;
+    height: 100%;
+}
+
+#sliders>.slidebox>.slideshow>.items>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+#sliders>.slidebox>.dot {
+    /* border: 1px solid black; */
+    width: 130px;
+    height: 30px;
+    margin: auto;
+}
+
+#sliders>.slidebox>.dot>.dotted {
+    /* border: 1px solid black; */
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    margin: auto;
+    float: right;
+    margin: 8px 8px 0;
+    background-color: rgb(120, 198, 231);
+}
+
+#sliders>.slidebox>.dot>.active {
+    background-color: rgb(0, 153, 255);
+}
+
+/* top users */
+
+/*  */
+/*  */
