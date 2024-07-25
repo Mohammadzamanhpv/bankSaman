@@ -8,7 +8,153 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
     <style>
+        /* #bigbox {
+            border: 1px solid black;
+            width: 1210px;
+            height: 400px;
+        } */
 
+        #bigbox>.products {
+            /* border: 1px solid black; */
+            width: 1210px;
+            height: 400px;
+            background-color: rgb(249, 249, 249);
+        }
+
+        #bigbox>.products>.right {
+            /* border: 1px solid red; */
+            width: 505px;
+            height: 366px;
+            float: right;
+            margin: 3% 0;
+            padding-right: 20px;
+        }
+
+        /* #bigbox>.products>.right>h2 {} */
+
+        #bigbox>.products>.right>li {
+            line-height: 2rem;
+        }
+
+        #bigbox>.products>.right>a {
+            border: 1px solid #28b6ea;
+            color: #28b6ea;
+            width: 70px;
+            height: 20px;
+            padding: 5px 30px;
+            float: right;
+            margin: 15px 5px 0 0;
+            border-radius: 5px;
+        }
+
+        #bigbox>.products>.left {
+            /* border: 1px solid red; */
+            width: 595px;
+            height: 366px;
+            float: left;
+            margin: 3% 0;
+
+        }
+
+        #bigbox>.products>.left>.smallbox {
+            width: 130px;
+            height: 77px;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 15px;
+            float: right;
+            margin: 1.2% 3.2%;
+        }
+
+        #bigbox>.products>.left>.smallbox>img {
+            width: 48px;
+            height: 48px;
+            margin: 0 30%;
+
+        }
+
+        #bigbox>.products>.left>.smallbox>h5 {
+            margin: 0;
+            text-align: center;
+        }
+
+
+        #content>#bigbox>.services {
+            /* border: 1px solid #e1e1e1; */
+            width: 1210px;
+            height: 300px;
+            margin-top: 20px;
+        }
+
+        #content>#bigbox>.services>.duty {
+            border: 1px solid #e1e1e1;
+            border-radius: 10px;
+            width: 370px;
+            height: 230px;
+            float: right;
+        }
+
+        #content>#bigbox>.services>.it {
+            margin-right: 45px;
+        }
+
+        #content>#bigbox>.services>.duty>.titled {
+            /* border: 1px solid black; */
+            width: 310px;
+            height: 62px;
+            color: #212529;
+            margin: 3% 8% 0;
+        }
+
+        #content>#bigbox>.services>.duty>.titled>.txt {
+            /* border: 1px dotted red; */
+            font-size: 18px;
+            width: 150px;
+            height: 24px;
+            float: right;
+            font-weight: 700;
+            margin: 15px 10px;
+        }
+
+        #content>#bigbox>.services>.duty>.titled>.img1 {
+            /* border: 1px dotted red; */
+            width: 62px;
+            float: right;
+            height: 62px;
+            background: url(./img/img5.svg);
+        }
+
+        #content>#bigbox>.services>.duty>.titled>.img2 {
+            /* border: 1px dotted red; */
+            float: right;
+            width: 62px;
+            height: 62px;
+            background: url(./img/img3.svg);
+        }
+
+        #content>#bigbox>.services>.duty>.titled>.img3 {
+            /* border: 1px dotted red; */
+            float: right;
+            width: 62px;
+            height: 62px;
+            background: url(./img/img4.svg);
+        }
+
+        #content>#bigbox>.services>.duty>.listed {
+            /* border: 1px solid black; */
+            width: 290px;
+            height: 100px;
+            color: #212529;
+            margin: 0 8% 0;
+            padding: 10px 20px 0 0;
+
+        }
+
+        #content>#bigbox>.services>.duty>.listed>li {
+            list-style-type: disc red;
+            color: #444;
+
+        }
     </style>
 </head>
 
@@ -52,10 +198,10 @@
     <div id="sliders">
         <div class="slidebox">
             <div id="slideshow" class="slideshow">
-                <div id="tap1" class="items"><img src="./img/banner4.01.jpg" alt=""></div>
-                <div id="tap2" class="items"><img src="./img/banner4.02.jpg" alt=""></div>
-                <div id="tap3" class="items"><img src="./img/banner4.03.jpg" alt=""></div>
-                <div id="tap4" class="items"><img src="./img/banner4.04.jpg" alt=""></div>
+                <div id="tap1" class="items"><img src="./img/banner401.jpg" alt=""></div>
+                <div id="tap2" class="items"><img src="./img/banner402.jpg" alt=""></div>
+                <div id="tap3" class="items"><img src="./img/banner403.jpg" alt=""></div>
+                <div id="tap4" class="items"><img src="./img/banner404.jpg" alt=""></div>
             </div>
             <div id="dot" class="dot">
                 <span id="first" class="dotted active"></span>
@@ -67,15 +213,99 @@
     </div>
     <div id="content">
         <div id="bigbox">
-            <div class="products"></div>
-            <div class="services"></div>
+            <div class="products">
+                <div class="right">
+                    <h2>آشنایی با بانکداری شرکتی</h2>
+                    <li>شرکت‌های سهامی عام پذیرفته‌شده در بورس اوراق بهادار؛</li>
+                    <li>شرکت‌های سهامی عام پذیرفته‌شده در بورس اوراق بهادار؛</li>
+                    <li>شرکت‌های سهامی عام پذیرفته‌شده در بورس اوراق بهادار؛</li>
+                    <li>شرکت‌های سهامی عام پذیرفته‌شده در بورس اوراق بهادار؛</li>
+                    <li>شرکت‌های سهامی عام پذیرفته‌شده در بورس اوراق بهادار؛</li>
+                    <li>شرکت‌های سهامی عام پذیرفته‌شده در بورس اوراق بهادار؛</li>
+                    <li>شرکت‌های سهامی عام پذیرفته‌شده در بورس اوراق بهادار؛</li>
+                    <a href="">مطالعه بیشتر</a>
+                </div>
+                <div class="left">
+                    <div class="smallbox">
+                        <img src="./img/chemical.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/food.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/ITService.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/pharma.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/cellulose.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/softcomodities.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/retail.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/pharma.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                    <div class="smallbox">
+                        <img src="./img/cellulose.svg">
+                        <h5>صنایع سلولزی</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="services">
+                <div class="duty">
+                    <div class="titled">
+                        <div class="img1"></div>
+                        <div class="txt">پیشنهادهای سامانی</div>
+                    </div>
+                    <div class="listed">
+                        <li>بیمه مسافرتی</li>
+                        <li>بیمه مسافرتی</li>
+                        <li>بیمه مسافرتی</li>
+                    </div>
+                </div>
+                <div class="duty it">
+                    <div class="titled">
+                        <div class="img2"></div>
+                        <div class="txt">دستیار بانکی</div>
+                    </div>
+                    <div class="listed">
+                        <li>محاسبه شبا بانکی</li>
+                        <li>محاسبه شبا بانکی</li>
+                        <li>محاسبه شبا بانکی</li>
+                    </div>
+                </div>
+                <div class="duty it">
+                    <div class="titled">
+                        <div class="img3"></div>
+                        <div class="txt">خدمات مالی سامان</div>
+                    </div>
+                    <div class="listed">
+                        <li>دریافت درگاه اینترنتی</li>
+                        <li>دریافت درگاه اینترنتی</li>
+                        <li>دریافت درگاه اینترنتی</li>
+                    </div>
+                </div>
+            </div>
             <div class="news">
                 <div class="box1">
                     <span class="txt1">آخرین اخبار:</span>
                     <span class="txt2">بانک سامان، سهامداران خود را به مجمع...</span>
                     <span class="txt3">مشاهده خبر</span>
                 </div>
-                <div class="box2">
+                <div class">
                     <span class="txt1">۰۲۱-۶۴۲۲</span><span class="txt2">مرکز سامان ارتباط</span>
                 </div>
             </div>

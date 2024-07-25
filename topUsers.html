@@ -8,7 +8,156 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
     <style>
+        #content {
+            /* border: 1px solid black; */
+            width: 1440px;
+            height: 890px;
+        }
 
+        #content>#bigbox {
+            /* border: 1px solid red; */
+            width: 1210px;
+            height: 880px;
+        }
+
+        #content>#bigbox>.products {
+            /* border: 1px solid black; */
+            width: 1210px;
+            height: 450px;
+            padding: 30px;
+            background-color: rgb(249, 249, 249);
+            border-radius: 10px;
+        }
+
+        #content>#bigbox>.products>.pro {
+            /* border: 1px solid black; */
+            width: 550px;
+            height: 386px;
+        }
+
+        #content>#bigbox>.products>.duct1 {
+            float: right;
+        }
+
+
+        #content>#bigbox>.products>.duct1>div {
+            margin: 25% 0;
+        }
+
+        #content>#bigbox>.products>.duct1>div>span {
+            color: #212529;
+            width: 540px;
+            height: 40px;
+            /* border: 1px solid black; */
+            text-align: justify;
+            float: right;
+        }
+
+        #content>#bigbox>.products>.duct1>div>span:nth-child(1) {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        #content>#bigbox>.products>.duct1>div>span:nth-child(2) {
+            height: 100px;
+        }
+
+        #content>#bigbox>.products>.duct2 {
+            float: left;
+            width: 560px;
+        }
+
+        #content>#bigbox>.products>.duct2>.card {
+            /* border: 1px solid black; */
+            width: 170px;
+            height: 380px;
+            float: right;
+            margin: 0 1.2%;
+        }
+
+        #content>#bigbox>.products>.duct2>.card>div {
+            width: 136px;
+            height: 365px;
+            margin: auto;
+            padding: 15px 0 0;
+            background-color: #ffffff;
+        }
+
+        #content>#bigbox>.products>.duct2>.card>div>h2 {
+            width: 100px;
+            height: 25px;
+            margin: auto;
+            font-size: 15px;
+            font-weight: 500;
+
+        }
+
+        #content>#bigbox>.products>.duct2>.card>div>img {
+            width: 136px;
+            height: 85px;
+            margin: 10px 0 0;
+            /* margin: auto; */
+        }
+
+        #content>#bigbox>.products>.duct2>.card>div>p {
+            text-align: center;
+            width: 136px;
+            height: 168px;
+        }
+
+        #content>#bigbox>.products>.duct2>.card>div>a {
+            border: 2px solid black;
+            width: 43px;
+            height: 22px;
+            padding: 4px 24px;
+            border-radius: 5px;
+            margin: 0 15%;
+            float: right;
+        }
+
+        #content>#bigbox>.services {
+            /* border: 1px solid blue; */
+            width: 1210px;
+            height: 385px;
+            margin: 15px 0 0;
+        }
+
+        #content>#bigbox>.services>.duty {
+            /* border: 1px solid black; */
+            width: 1210px;
+            float: right;
+            height: 385px;
+        }
+
+        #content>#bigbox>.services>.duty>.box {
+            border: 1px solid rgb(216, 216, 216);
+            width: 525px;
+            height: 129px;
+            padding: 24px;
+            float: right;
+            border-radius: 10px;
+            margin: 2px 15px 20px;
+        }
+
+        #content>#bigbox>.services>.duty>.box>.right {
+            float: right;
+            width: 289px;
+            height: 92px;
+        }
+
+        /* #content>#bigbox>.services>.duty>.box>.right>h2 {} */
+
+        /* #content>#bigbox>.services>.duty>.box>.right>div {} */
+
+        #content>#bigbox>.services>.duty>.box>.left {
+            float: left;
+            width: 199px;
+            height: 129px;
+        }
+
+        #content>#bigbox>.services>.duty>.box>.left>img {
+            height: 129px;
+        }
     </style>
 </head>
 
@@ -67,8 +216,91 @@
     </div>
     <div id="content">
         <div id="bigbox">
-            <div class="products"></div>
-            <div class="services"></div>
+            <div class="products">
+                <div class="pro duct1">
+                    <div>
+                        <span>مشتریان برتر</span>
+                        <span>مشتریان برتر به سه گروه مشتریان خاص، ویژه و ممتاز تفکیک شده‌اند که می‌توانند از خدماتی
+                            فراتر و کامل‌تر از خدمات معمول بانک بهره‌مند شوند. این خدمات برای راحتی بیشتر این گروه از
+                            مشتریان در امور بانکی و زندگی روزمره‌شان طراحی شده است.</span>
+                    </div>
+                </div>
+                <div class="pro duct2">
+                    <div class="card">
+                        <div>
+                            <h2>مشتریان خاص</h2>
+                            <img src="./img/img202.jpg">
+                            <p>کارت مشکی برای مشتریان خاص طراحی شده و دارندگان این کارت می‌توانند از بانکدار اختصاصی،
+                                خدمات
+                                متفاوت و تخفیف‌های مراکز طرف قرارداد استفاده کنند.</p>
+                            <a href="">مشاهده</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h2>مشتریان ویژه</h2>
+                            <img src="./img/img201.jpg">
+                            <p>کارت طلایی برای مشتریان ویژه طراحی شده و دارندگان این کارت می‌توانند از بانکدار ویژه،
+                                خدمات
+                                برتر و تخفیف‌های مراکز طرف قرارداد استفاده کنند.</p>
+                            <a href="">مشاهده</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h2>مشتریان ممتاز</h2>
+                            <img src="./img/img207.jpg">
+                            <p>کارت آبی مخصوص مشتریان ممتاز طراحی شده و دارندگان این کارت می‌توانند از خدمات اعتباری و
+                                تخفیف‌های ویژه خرید از مراکز طرف قرارداد برخوردار شوند.</p>
+                            <a href="">مشاهده</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services">
+                <div class="duty">
+                    <div class="box">
+                        <div class="right">
+                            <h2>بیمه مسافرتی</h2>
+                            <div>کاهش مخاطرات سفر
+                                با بیمه مسافرتی سامان</div>
+                        </div>
+                        <div class="left">
+                            <img src="./img/img203.svg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="right">
+                            <h2>بیمه مسافرتی</h2>
+                            <div>کاهش مخاطرات سفر
+                                با بیمه مسافرتی سامان</div>
+                        </div>
+                        <div class="left">
+                            <img src="./img/img204.svg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="right">
+                            <h2>بیمه مسافرتی</h2>
+                            <div>کاهش مخاطرات سفر
+                                با بیمه مسافرتی سامان</div>
+                        </div>
+                        <div class="left">
+                            <img src="./img/img205.svg">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="right">
+                            <h2>بیمه مسافرتی</h2>
+                            <div>کاهش مخاطرات سفر
+                                با بیمه مسافرتی سامان</div>
+                        </div>
+                        <div class="left">
+                            <img src="./img/img206.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="news">
                 <div class="box1">
                     <span class="txt1">آخرین اخبار:</span>
